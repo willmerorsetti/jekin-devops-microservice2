@@ -16,16 +16,6 @@ pipeline {
 		echo "Integration Test"
 	    }
 	}	    
-    } post {
-          always {
-	      echo "Im Awesome. I run always Test"  
-	  }
-          success {
-	      echo "Solo corro si es exitoso"  
-	  }	
-          failure {
-	      echo "Solo corro si Falla"  
-	  }	    
-    }
+    } 
 	    
 }
