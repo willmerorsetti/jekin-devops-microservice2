@@ -28,9 +28,9 @@ pipeline {
           failure {
 	      echo "Solo corro si Falla"  
 	  }
-	  changed  {
-	      echo "Se Cambio de estatus ..."  
-	  }
+	  //changed  {
+	  //    echo "Se Cambio de estatus ..."  
+	  //}
     }	
 	    
 }
